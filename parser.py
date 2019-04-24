@@ -13,10 +13,4 @@ def parse(filename):
     words.remove("")
     return words
 
-def html(filename):
-    with open(filename+".html", "w") as f:
-         f.write("Hello it's work")
-
-
-#html("test") 
-print(parse("test"))
+#print(parse("test"))
