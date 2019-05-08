@@ -1,9 +1,6 @@
-def html(set):
+def html(filename, dictionary):
     with open(filename+".html", "w") as f:
-        for line in f:
-            for words in dictionary:
+        for line in filename:
+            for i in dictionary:       
                 f.write("Hello it's work")
-    return f
-
-
 

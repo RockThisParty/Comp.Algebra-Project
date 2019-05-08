@@ -12,5 +12,3 @@ def parse(filename):
     words = list(set(text))
     words.remove("")
     return words
-
-#print(parse("test"))
